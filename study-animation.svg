@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="100%" height="100%" style="background:#0D1117; font-family: monospace;">
+  <style>
+    @keyframes lampGlow {
+      0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 15px #FCD34D); }
+      50% { opacity: 0.95; filter: drop-shadow(0 0 25px #FCD34D); }
+    }
+    @keyframes screenFlicker {
+      0%, 45% { fill: #1E293B; stroke: #38BDF8; }
+      50%, 95% { fill: #064E3B; stroke: #10B981; }
+      100% { fill: #1E293B; stroke: #38BDF8; }
+    }
+    @keyframes happyArmRight {
+      0%, 45% { transform: rotate(0deg); }
+      52%, 92% { transform: rotate(-55deg); }
+      98%, 100% { transform: rotate(0deg); }
+    }
+    @keyframes happyArmLeft {
+      0%, 45% { transform: rotate(0deg); }
+      52%, 92% { transform: rotate(55deg); }
+      98%, 100% { transform: rotate(0deg); }
+    }
+    @keyframes celebrationStars {
+      0%, 48% { opacity: 0; transform: scale(0.3) translateY(10px); }
+      55%, 90% { opacity: 1; transform: scale(1.2) translateY(-15px); }
+      98%, 100% { opacity: 0; transform: scale(0.3) translateY(10px); }
+    }
+    @keyframes steamRise {
+      0% { opacity: 0.2; transform: translateY(0); }
+      50% { opacity: 0.7; transform: translateY(-8px); }
+      100% { opacity: 0; transform: translateY(-16px); }
+    }
+
+    .lamp-light { animation: lampGlow 4s infinite ease-in-out; }
+    .laptop-screen { animation: screenFlicker 8s infinite ease-in-out; }
+    .arm-left { animation: happyArmLeft 8s infinite ease-in-out; transform-origin: 430px 210px; }
+    .arm-right { animation: happyArmRight 8s infinite ease-in-out; transform-origin: 470px 210px; }
+    .stars { animation: celebrationStars 8s infinite ease-in-out; transform-origin: 450px 120px; }
+    .steam { animation: steamRise 3s infinite ease-in-out; }
+  </style>
+
+  <!-- Background Room Setting -->
+  <rect width="900" height="380" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  
+  <!-- Window -->
+  <rect x="50" y="40" width="120" height="150" rx="8" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+  <circle cx="110" cy="85" r="28" fill="#FDE68A" opacity="0.9" filter="drop-shadow(0 0 10px #FDE68A)"/>
+  <circle cx="122" cy="78" r="24" fill="#161B22"/>
+  <circle cx="75" cy="65" r="1.5" fill="#FFF"/><circle cx="145" cy="110" r="1.2" fill="#FFF"/><circle cx="85" cy="150" r="1" fill="#FFF"/>
+
+  <!-- Clock -->
+  <circle cx="780" cy="85" r="30" fill="#161B22" stroke="#30363D" stroke-width="3"/>
+  <line x1="780" y1="85" x2="780" y2="67" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
+  <line x1="780" y1="85" x2="792" y2="85" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="780" cy="85" r="3" fill="#22D3EE"/>
+
+  <!-- Desk Legs & Top -->
+  <rect x="200" y="270" width="500" height="16" rx="4" fill="#30363D"/>
+  <rect x="240" y="286" width="16" height="74" fill="#21262D"/>
+  <rect x="640" y="286" width="16" height="74" fill="#21262D"/>
+
+  <!-- Lamp Light Beam -->
+  <polygon points="620,165 400,270 680,270" fill="#FCD34D" opacity="0.12" class="lamp-light"/>
+  <path d="M 640 270 L 640 200 L 620 165" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 610 170 L 630 160 L 625 150 L 605 160 Z" fill="#D97706"/>
+  <rect x="625" y="265" width="30" height="6" rx="3" fill="#D97706"/>
+
+  <!-- Coffee Cup -->
+  <rect x="280" y="248" width="18" height="22" rx="3" fill="#EF4444"/>
+  <path d="M 298 253 C 304 253, 304 265, 298 265" fill="none" stroke="#EF4444" stroke-width="2"/>
+  <path d="M 285 242 Q 288 237, 285 232" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" class="steam"/>
+  <path d="M 292 244 Q 295 239, 292 234" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" class="steam" style="animation-delay: 1s;"/>
+
+  <!-- Books Stack -->
+  <rect x="570" y="254" width="50" height="16" rx="2" fill="#3B82F6"/>
+  <rect x="575" y="240" width="42" height="14" rx="2" fill="#10B981"/>
+  <rect x="568" y="228" width="48" height="12" rx="2" fill="#8B5CF6"/>
+
+  <!-- Laptop -->
+  <rect x="390" y="195" width="120" height="70" rx="6" fill="#1E293B" stroke="#38BDF8" stroke-width="2" class="laptop-screen"/>
+  <g class="laptop-screen-content">
+    <text x="402" y="215" fill="#38BDF8" font-size="9" font-family="monospace">&gt; compiling...</text>
+    <text x="402" y="230" fill="#F8FAFC" font-size="8" font-family="monospace">class Solution {{</text>
+    <text x="410" y="242" fill="#A78BFA" font-size="8" font-family="monospace">solve();</text>
+    <text x="402" y="254" fill="#F8FAFC" font-size="8" font-family="monospace">}}</text>
+  </g>
+  <path d="M 370 268 L 530 268 L 520 273 L 380 273 Z" fill="#64748B"/>
+
+  <!-- Chair & Boy Body -->
+  <rect x="425" y="210" width="50" height="60" rx="6" fill="#1F2937"/>
+  <rect x="445" y="270" width="10" height="30" fill="#111827"/>
+  <circle cx="450" cy="170" r="22" fill="#FCA5A5"/>
+  <path d="M 428 168 C 428 142, 472 142, 472 168 C 468 152, 432 152, 428 168 Z" fill="#1E1B4B"/>
+  <circle cx="436" cy="155" r="8" fill="#1E1B4B"/>
+  <circle cx="450" cy="150" r="9" fill="#1E1B4B"/>
+  <circle cx="464" cy="155" r="8" fill="#1E1B4B"/>
+  <circle cx="443" cy="172" r="2" fill="#0F172A"/>
+  <circle cx="457" cy="172" r="2" fill="#0F172A"/>
+  <path d="M 445 180 Q 450 185, 455 180" fill="none" stroke="#0F172A" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M 425 195 C 425 190, 475 190, 475 195 L 480 250 L 420 250 Z" fill="#2563EB"/>
+  
+  <!-- Arms Animation -->
+  <g class="arm-left">
+    <path d="M 430 200 L 400 230 L 390 260" fill="none" stroke="#2563EB" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="390" cy="260" r="5" fill="#FCA5A5"/>
+  </g>
+  <g class="arm-right">
+    <path d="M 470 200 L 500 230 L 510 260" fill="none" stroke="#2563EB" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="510" cy="260" r="5" fill="#FCA5A5"/>
+  </g>
+
+  <!-- Celebration Popup -->
+  <g class="stars">
+    <path d="M 450 110 L 453 118 L 461 118 L 454 123 L 457 131 L 450 126 L 443 131 L 446 123 L 439 118 L 447 118 Z" fill="#FBBF24"/>
+    <path d="M 390 120 L 392 125 L 397 125 L 393 128 L 395 133 L 390 130 L 385 133 L 387 128 L 383 125 L 388 125 Z" fill="#34D399"/>
+    <path d="M 510 120 L 512 125 L 517 125 L 513 128 L 515 133 L 510 130 L 505 133 L 507 128 L 503 125 L 508 125 Z" fill="#60A5FA"/>
+    <rect x="400" y="90" width="100" height="22" rx="11" fill="#10B981"/>
+    <text x="412" y="105" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="monospace">BUILD SUCCESS!</text>
+  </g>
+
+  <text x="450" y="348" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="monospace">"Late night debugging ends in victory 🚀"</text>
+</svg>

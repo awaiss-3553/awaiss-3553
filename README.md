@@ -1,21 +1,46 @@
-# 💫 About Me:
-Building a strong foundation in Software Engineering and practicing logic building through C++ projects. <br>Open-source C++ projects or beginner-friendly data science repositories. <br>Advanced Data Structures and mastering complex algorithms in C++. <br>C++ basics, semester planning, or how to manage studies alongside investment goals. <br>I am a tech enthusiast who believes in consistent growth and logical problem-solving.
+<!-- CYBERPUNK VECTOR MORPHING BANNER -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg?v=4">
+    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=4">
+    <img alt="Muhammad Awais" src="banner-dark.svg?v=4" width="100%">
+  </picture>
+</div>
 
+<br/>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/muhammad-awais-047252392/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:awaiss3553@gmail.com) 
+<!-- STREAK STATS CARD -->
+<div align="center">
+  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=naumanrazzaq-dot&theme=dark&hide_border=true&background=0A101F&ring=22D3EE&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE" alt="Nauman's Streak" />
+</div>
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=awaiss-3553&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=awaiss-3553&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=awaiss-3553&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<br/>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<!-- LATE NIGHT DEBUGGING ANIMATION SECTION -->
+<div align="center">
+  <img src="study-animation.svg" width="100%" alt="Late Night Coding & Study" />
+</div>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=awaiss-3553&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<br/>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<!-- CONTRIBUTION SNAKE ANIMATION -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/naumanrazzaq-dot/naumanrazzaq-dot/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/naumanrazzaq-dot/naumanrazzaq-dot/output/github-snake.svg" />
+    <img alt="Snake eating contributions" src="https://raw.githubusercontent.com/naumanrazzaq-dot/naumanrazzaq-dot/output/github-snake.svg" />
+  </picture>
+</div>
+
+<br/>
+
+<!-- SOCIAL BADGES -->
+<div align="center">
+  <a href="https://www.linkedin.com/in/naumanrazzaq/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:maliknomigep@gmail.com">
+    <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=108981&labelColor=0A101F" alt="Email" />
+  </a>
+</div>

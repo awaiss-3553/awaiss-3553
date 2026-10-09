@@ -1,9 +1,9 @@
 <!-- CYBERPUNK VECTOR MORPHING BANNER -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg?v=4">
-    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=4">
-    <img alt="Muhammad Awais" src="banner-dark.svg?v=4" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg?v=5">
+    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=5">
+    <img alt="Muhammad Awais" src="banner-dark.svg?v=5" width="100%">
   </picture>
 </div>
 
